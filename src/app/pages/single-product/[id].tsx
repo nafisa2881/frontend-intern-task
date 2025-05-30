@@ -59,7 +59,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
         product,
       },
     };
-  } catch (error) {
+  } catch {
     return {
       notFound: true,
     };

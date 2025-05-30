@@ -1,14 +1,10 @@
 'use client'; 
 
-import { Nanum_Pen_Script } from 'next/font/google';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
-const nanum = Nanum_Pen_Script({
-  weight: '400',
-  subsets: ['latin'],
-});
+
 
 type ImageType = {
   secure_url: string;
